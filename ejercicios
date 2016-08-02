@@ -1,0 +1,35 @@
+1//
+rect(20,20,60,60);
+
+2//
+size(200,200);
+rect(20,20,60,60);
+
+3//
+void setup(){
+size(200,200);
+}
+void loop(){
+rect(20,20,160,160);
+}
+
+4//
+int posicion = 0;
+void setup(){
+size(200,200);
+}
+void loop(){
+rect(posicion,20,10,160);
+posicion ++;
+}
+
+5//
+int posicion = 0;
+void setup(){
+size(200,200);
+}
+void loop(){
+rect(posicion,posicion,1,1);
+
+posicion ++;
+}
